@@ -1,0 +1,197 @@
+/* #1976d2
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu>li:hover>a>span{
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.skin-blue-light .sidebar-menu>li>a, .user-panel>.info>p{
+    font-weight: normal;
+}
+.main-footer {
+    padding: 10px 15px;
+}
+label{
+    font-weight: 400;
+}
+.form-control{
+    border-radius: 4px;
+}
+.text-red{
+    font-size: 14px;
+}
+.box.box-solid.box-default > .box-header{
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+.box-footer{
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+*/
+
+.skin-blue-light .sidebar-menu .treeview-menu > li.active{
+    background: #e5e5ec;
+}
+.skin-blue-light .sidebar-menu > li:hover > a, .skin-blue-light .sidebar-menu > li.active > a{
+    background: #e5e5ec;
+}
+.login-page, .register-page{
+    background-image: url('../images/login-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.overlay{
+    display: none;
+}
+.form-control{
+    font-size: inherit;
+}
+
+.inputchkbox {
+	float: left;
+	padding: 5px 0 13px;
+	width: 100%;
+	max-width: 200px;
+}
+.inputchkbox label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 30px;
+    padding-top: 2px;
+	font-size: 12px;
+	color: #444444;
+	text-transform: initial;
+	font-weight: 400;
+}
+.inputchkbox label:before {
+	content: "";
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	background-color: #ffffff;
+	border: 1px solid #dedede;
+	border-radius: 3px;
+}
+
+.inputchkbox input[type="checkbox"] {
+	display: none;
+}
+.inputchkbox input[type="checkbox"]:checked + label:before {
+	content: "\2713";
+	font-size: 15px;
+	color: #4e72f5;
+	text-align: center;
+	line-height: 19px;
+	font-weight: bold;
+}
+
+.inputoptionbox {
+	float: left;
+	padding: 5px 0 13px;
+	width: 100%;
+	max-width: 200px;
+}
+.inputoptionbox label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 30px;
+	font-size: 15px;
+	color: #444444;
+	text-transform: initial;
+	font-weight: 400;
+}
+.inputoptionbox label:before {
+	content: "";
+	display: inline-block;
+	width: 21px;
+	height: 21px;
+	margin-right: 10px;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	background-color: #ffffff;
+	border: 1px solid #dedede;
+	border-radius: 50%;
+}
+
+.inputoptionbox input[type="radio"] {
+	display: none;
+}
+.inputoptionbox input[type="radio"]:checked + label:before {
+	content: "\2022";
+	font-size: 32px;
+	color: #4e72f5;
+	text-align: center;
+	line-height: 15px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+
+#message{
+    display: none;
+    position: fixed;
+    top: 30%;
+    right: calc(50% - 150px);
+    margin: 0 auto;
+    width: 400px;
+    z-index: 999999;
+}
+#inner-message {
+    margin: 0 auto;
+}
+.alert {
+    padding: 10px 15px;
+    margin-bottom: 4px;
+}
+.alert-dismissable .close, .alert-dismissible .close{
+    right: -4px;
+}
+/*.chosen-container>.chosen-single,[class*=chosen-container]>.chosen-single{*/
+.chosen-container.chosen-container-single{
+    width: 100% !important;
+    
+}
+.chosen-container-single .chosen-single{
+    border-radius: 4px;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+    color: #337ab7;
+    cursor: default;
+    background-color: inherit;
+    border-color: #337ab7;
+}
+.star{
+    font-size: 15px;
+}
+.edit_box_image{
+    /* width: 150px; */
+    margin-bottom: 5px;
+}
+.image_container{
+   position: relative;
+   display: inline-block;
+}
+.image_delete_link{
+   position: absolute;
+   top: 0px;
+   right: 0;
+   padding: 0px 5px;
+   border-radius: 50%;
+   color:#fff;
+   background: #848181;
+   cursor: pointer;
+}
+.product_box .popover{
+    width: 100%;
+    max-width: none;
+}
